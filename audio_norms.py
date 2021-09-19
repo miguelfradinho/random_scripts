@@ -107,7 +107,6 @@ if __name__ == "__main__":
 
         file_name = args.video
         detected_file = None
-        print(args)
         if args.detect:
             detected_file = volume_detect(file_name)
         if args.loudnorm:
